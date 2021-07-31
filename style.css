@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Charmonman', cursive;
+   
+}
+body{
+    background-color: beige;    
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+     background-color: rgb(200, 221, 15);
+     height: 254px;
+    width: 531px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     text-align: center;
+     border-radius: 20px;
+}
+.btn {
+    width: 113px;
+    margin: 0 38%;
+    padding: 11px 7px;
+    background-color: yellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+h3{
+    color: red;
+}
